@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-java@v3.14.1
         with:
           java-version: 1.8
-          distribution: 'temurin'
+          distribution: 'oracle'
       - name: Set up NDK
         uses: nttld/setup-ndk@v1.5.0
         id: setup-ndk
